@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
+import CCCar from './ClassComponents/CCCar';
 import EHeader from './Elements/EHeader';
 import FCStudent from './FunctionalComponents/FCStudent';
 
@@ -7,6 +8,8 @@ const App =
   <div className="styNir">
     {EHeader}
     {console.log(1)}
+
+    <CCCar />
 
     <FCStudent  id={7} name="avi" inRup={true}/>
     <FCStudent  id={8} name="ben" inRup={false}/>
