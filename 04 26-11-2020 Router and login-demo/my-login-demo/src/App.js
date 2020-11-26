@@ -1,11 +1,11 @@
 import './App.css';
-import CCLogin from './ClassComponents/CCLogin';
+import CCMain from './ClassComponents/CCMain';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <CCLogin />
+        <CCMain/>
       </header>
     </div>
   );
